@@ -156,15 +156,15 @@ h2 {
   color: white;
 }
 
+.footer .social-media a:hover {
+  position: relative;
+  top: 10px;
+}
+
 .footer .portfolio p .footer .portfolio a {
   color: white;
   font-size: 20px;
   margin-right: 100px;
-}
-
-.footer .social-media a:hover {
-  position: relative;
-  top: 10px;
 }
 
 .column-one-project .column-two-project {
@@ -187,7 +187,6 @@ h2 {
   z-index: 1;
   cursor: pointer;
   border-radius: 5px;
-
 }
 
 .click-show button:hover {
