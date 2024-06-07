@@ -595,71 +595,71 @@ img:hover {
 
   }
 
-  @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
-    .title-name {
-      margin-left: px;
-    }
-  
-    .column-one-project {
-      flex-wrap: wrap;
-      align-items: center;
-      height: min-content;
-    }
-  
-    .content {
-      width: 100%;
-      height: max-content;
-    }
-  
-    .project-tile {
-      width: 60%;
-      margin: auto auto 30px;
-    }
-  
-    .project-tile p {
-      width: 100%;
-    }
-  
-    img {
-      width: 100%;
-      filter: blur(0px);
-    }
-  
-    .click-show button {
-      left: auto;
-    }
-  
-    .service {
-      height: fit-content;
-    }
-  
-    .service .info-service {
-      flex-direction: column;
-      align-items: center;
-      height: max-content;
-    }
-  
-    .info-service div {
-      width: 60%;
-      margin: 20px 0;
-    }
-  
-    .footer {
-      height: fit-content;
-    }
-  
-    .footer h2 {
-      font-size: 40px;
-    }
-  
-    .social-media {
-      flex-wrap: wrap;
-      width: auto;
-      height: fit-content;
-    }
-  
-    .portfolio {
-      height: fit-content;
-    }
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .title-name {
+    margin-left: px;
   }
+
+  .column-one-project {
+    flex-wrap: wrap;
+    align-items: center;
+    height: min-content;
+  }
+
+  .content {
+    width: 100%;
+    height: max-content;
+  }
+
+  .project-tile {
+    width: 60%;
+    margin: auto auto 30px;
+  }
+
+  .project-tile p {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    filter: blur(0px);
+  }
+
+  .click-show button {
+    left: auto;
+  }
+
+  .service {
+    height: fit-content;
+  }
+
+  .service .info-service {
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+  }
+
+  .info-service div {
+    width: 60%;
+    margin: 20px 0;
+  }
+
+  .footer {
+    height: fit-content;
+  }
+
+  .footer h2 {
+    font-size: 40px;
+  }
+
+  .social-media {
+    flex-wrap: wrap;
+    width: auto;
+    height: fit-content;
+  }
+
+  .portfolio {
+    height: fit-content;
+  }
+}
   
