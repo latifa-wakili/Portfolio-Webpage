@@ -666,7 +666,6 @@ img:hover {
   .info-service div {
     width: 60%;
     margin: 20px 0;
-
   }
 
   .footer {
@@ -681,7 +680,6 @@ img:hover {
     flex-wrap: wrap;
     width: auto;
     height: fit-content;
-
   }
 
   .portfolio {
