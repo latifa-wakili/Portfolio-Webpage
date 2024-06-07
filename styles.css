@@ -390,10 +390,9 @@ img:hover {
   }
 
   .column-one-project {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     height: min-content;
-
   }
 
   .content h2 {
@@ -429,7 +428,7 @@ img:hover {
   }
 
   .service .info-service {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     height: max-content;
   }
@@ -498,6 +497,7 @@ img:hover {
   .click-show button {
     left: auto;
   }
+
   .service {
     height: fit-content;
   }
@@ -556,7 +556,7 @@ img:hover {
   }
 
   .project-tile {
-    width: 60%; 
+    width: 60%;
     margin: auto auto 30px;
   }
 
@@ -578,7 +578,7 @@ img:hover {
   }
 
   .service .info-service {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     height: max-content;
   }
@@ -587,7 +587,7 @@ img:hover {
     width: 60%;
     margin: 20px 0;
   }
-  
+
   .footer {
     height: fit-content;
   }
