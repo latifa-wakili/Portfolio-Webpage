@@ -1,40 +1,15 @@
 # Project Title 🚀
-Documentation_page
+Portfolio-Webpage
 ## Project Description 📝
 
-> this project is useful for who want to now some basic information about JS.
-Examples:
-
-- When I started learning html and CSS at the first I searched about those.
-- It can give important and basic info about JS.
-- whith this project I learned what is JS and how it is useful.
-
-```html
-<!--  </header>
-    <li class="li">Writing into an alert box, using window.alert().</li>
-    <li class="li">Writing into the browser console, using console.log().</li> -->
-```
-
-```css
-/* 
-.li {
-  font-family: Arial, Helvetica, sans-serif;
-}
- */
-```
-
-```javascript
-//  class Car {
-        constructor(name, year) {
-          this.name = name;
-          this.year = year;
-        }You can also include JavaScript code snippets.
-```
+> this project is useful for who work on web devolepment and want to have a Portfolio webpage for thier works
+- It can give important and basic info about a web developer.
+- whith this project I learned what is a good Portfolio-Webpage and how it is useful.
 
 ## Demo 📸
 
 
-![Demo](pic.png)
+![Demo](portfolio.png)
 
 ## Technologies Used 🛠️
 
@@ -47,13 +22,12 @@ Examples:
 Provide step-by-step instructions on how to install and set up your project. Include any dependencies or prerequisites that need to be installed.
 
 ```bash
-# git.
+# git@github.com:latifa-wakili/Portfolio-Webpage.git
 ```
 
 ```bash
-# github.
+#cd Portfolio-Webpage.
 ```
-git@github.com:latifa-wakili/Documentation-page.git cd Documentation-page
 ```bash
 # vscode.
 ```
@@ -68,8 +42,8 @@ git@github.com:latifa-wakili/Documentation-page.git cd Documentation-page
 
 Examples:
 
-- Feature 1- change background color when give it wihgt
-- change background color when chose a nav
+- navigate in each part you need
+- good responsive
 
 
 ## Author 👩‍💻
