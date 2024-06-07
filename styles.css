@@ -180,7 +180,7 @@ img {
 }
 
 img:hover {
-  filter: blur 0px;
+  filter: blur 0;
 }
 
 .content p {
@@ -202,6 +202,10 @@ img:hover {
   display: flex;
   justify-content: center;
   margin: 20px;
+}
+
+.portfolio p {
+  margin-top: 30px;
 }
 
 .content p:hover {
@@ -236,7 +240,7 @@ img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2ps solid blueviolet;
+  border-top: 2px solid blueviolet;
 }
 
 .social-media {
@@ -339,7 +343,7 @@ img:hover {
   background-color: #e3edf7;
   margin: 20px;
   border-radius: 15px;
-  box-shadow: 0px 0px 10px  rgb(41, 41, 56);
+  box-shadow: 0 0 10px  rgb(41, 41, 56);
 }
 
 .info-service h3 {
@@ -347,10 +351,6 @@ img:hover {
   justify-content: center;
   font-size: 25px;
   color: blueviolet;
-}
-
-.portfolio p {
-  margin-top: 30px;
 }
 
 .portfolio {
@@ -367,47 +367,56 @@ img:hover {
   .header ul {
     display: none;
   }
+
   .header p {
     font-size: 30px;
     width: 30px;
     height: auto;
   }
+
   .title-name {
     width: 300px;
     display: flex;
     margin-left: 160px;
     height: auto;
   }
+
   .info p {
     font-size: 25px;
   }
+
   .info h1 {
     font-size: 50px;
   }
+
   .column-one-project {
     flex-direction: column; 
     align-items: center;
     height: min-content;
   }
+
   .content h2 {
     font-size: 20px;
     height: 50px;
   }
+
   .content {
     width: 100%;
     height: max-content;
   }
+
   .project-tile {
     width: 80%; 
     margin: 20px 0px;
   }
+
   .project-tile p {
     width: 100%;
   }
 
   img {
     width: 100%;
-    filter: blur(0px);
+    filter: blur 0;
   }
 
   .click-show button {
