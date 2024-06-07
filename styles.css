@@ -6,7 +6,7 @@
 .header {
   width: 100%;
   height: 80px;
-  background-color:  #e3edf7;
+  background-color: #e3edf7;
   position: fixed;
   margin: 0;
   display: flex;
@@ -15,9 +15,9 @@
   z-index: 2;
 }
 
-.title-name{
+.title-name {
   width: 200px;
-  height:auto;
+  height: auto;
   display: flex;
 }
 
@@ -607,7 +607,7 @@ img:hover {
 
   @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
     .title-name {
-      margin-left:px;
+      margin-left: px;
     }
   
     .column-one-project {
