@@ -180,7 +180,7 @@ img {
 }
 
 img:hover {
-  filter: blur(0px);
+  filter: blur 0px;
 }
 
 .content p {
@@ -215,7 +215,7 @@ img:hover {
   justify-content: center;
   font-size: larger;
   font-weight: 600;
-  box-shadow: 0 0 0px blueviolet;
+  box-shadow: 0 0 0 blueviolet;
 }
 
 .footer {
@@ -589,11 +589,11 @@ img:hover {
     height: fit-content;
   }
 
-    .portfolio {
-      height: fit-content;
-    }
-
+  .portfolio {
+    height: fit-content;
   }
+
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
   .title-name {
@@ -622,7 +622,7 @@ img:hover {
 
   img {
     width: 100%;
-    filter: blur(0px);
+    filter: blur 0px;
   }
 
   .click-show button {
@@ -662,4 +662,4 @@ img:hover {
     height: fit-content;
   }
 }
-  
+ 
