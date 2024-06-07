@@ -393,6 +393,7 @@ img:hover {
     flex-direction: column; 
     align-items: center;
     height: min-content;
+
   }
 
   .content h2 {
@@ -406,8 +407,9 @@ img:hover {
   }
 
   .project-tile {
-    width: 80%; 
-    margin: 20px 0px;
+    width: 80%;
+    margin: 20px 0;
+
   }
 
   .project-tile p {
@@ -422,6 +424,7 @@ img:hover {
   .click-show button {
     left: auto;
   }
+
   .service {
     height: fit-content;
   }
@@ -430,11 +433,13 @@ img:hover {
     flex-direction: column; 
     align-items: center;
     height: max-content;
+
   }
 
   .info-service div {
-    width: 80%; 
-    margin: 20px 0; 
+    width: 80%;
+    margin: 20px 0;
+
   }
 
   .footer {
@@ -450,11 +455,11 @@ img:hover {
     height: fit-content;
   }
 
-    .portfolio {
-      height: fit-content;
-    }
-
+  .portfolio {
+    height: fit-content;
   }
+
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
   ul {
@@ -524,11 +529,11 @@ img:hover {
     height: fit-content;
   }
 
-    .portfolio {
-      height: fit-content;
-    }
-
+  .portfolio {
+    height: fit-content;
   }
+
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
   ul {
@@ -546,25 +551,31 @@ img:hover {
     flex-wrap: wrap;
     align-items: center;
     height: min-content;
+
   }
 
   .content {
     width: 100%;
     height: max-content;
+
   }
 
   .project-tile {
     width: 60%; 
     margin: auto auto 30px;
+
   }
+
   .project-tile p {
     width: 100%;
   }
 
   img {
     width: 100%;
-    filter: blur(0px);
+    filter: blur 0;
+
   }
+
 
   .click-show button {
     left: auto;
@@ -596,6 +607,7 @@ img:hover {
     flex-wrap: wrap;
     width: auto;
     height: fit-content;
+
   }
 
   .portfolio {
@@ -623,6 +635,7 @@ img:hover {
   .project-tile {
     width: 60%;
     margin: auto auto 30px;
+
   }
 
   .project-tile p {
@@ -632,6 +645,7 @@ img:hover {
   img {
     width: 100%;
     filter: blur 0px;
+
   }
 
   .click-show button {
@@ -646,11 +660,13 @@ img:hover {
     flex-direction: column;
     align-items: center;
     height: max-content;
+
   }
 
   .info-service div {
     width: 60%;
     margin: 20px 0;
+
   }
 
   .footer {
@@ -665,6 +681,7 @@ img:hover {
     flex-wrap: wrap;
     width: auto;
     height: fit-content;
+
   }
 
   .portfolio {
